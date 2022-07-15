@@ -2,7 +2,7 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: 'Mukta', sans-serif;
-    
+    font-weight: 400;
 }
 
 * {
@@ -25,16 +25,18 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
+    
 
 .logo-img {
-width: 150px;
-margin:  8px 16px;
+    width: 150px;
+    margin:  8px 16px;
 }
 
 .user-img {
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%; 
+    border: 2px solid #1d4e89;
     margin-right: 16px; 
 }
 
@@ -43,31 +45,29 @@ margin:  8px 16px;
 
 header {
     display: flex;
-    margin: 20px 0 12px 20px;;
+    margin: 20px 0 12px 20px;
 }
 
 
 .avatar {
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
-
 }
 
 .name-container {
     margin-left: 20px;
-    line-height: 0.4;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .name {
     font-weight: 800;
+    color: #1d4e89;
 }
 
 
 section {
     width: 100%;
-
 }
 
 section img {
@@ -76,11 +76,11 @@ section img {
 }
 
 /*  footer  */
+
+
  footer {
      padding: 12px 18px;
-     
  }
- 
 
 footer img {
     width: 32px;
@@ -88,9 +88,19 @@ footer img {
     margin: 0 6px;
 }
 
-.likes-count, .comment {
-    font-weight: 800;
+footer img:hover,
+footer img:focus {
+    width: 36px;
+    height: 36px;
 }
+
+.likes-count, .comment {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1d4e89;
+}
+
+
 
 
 
